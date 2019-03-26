@@ -1,0 +1,60 @@
+#container-practice1 {
+    display: flex;
+    min-height: 1000px;
+    margin-top: 60px;
+  }
+  
+  #audrey {
+    background-color: purple;
+    color: snow;
+    min-height: 100px;
+    width: 50px;
+    /* position: fixed; */
+  }
+
+#container-mirror {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#mirror1 {
+  border: 1px solid red;
+}
+
+#mirror2 {
+  border: 1px solid blue;
+}
+  
+
+/* ============================================================ */
+
+.dragdrop-container {
+  padding: 20px;
+  font-family: Helvetica;
+  background-color: #20262e;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-gap: 10px;
+}
+
+.stage {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.currentStage {
+  min-height: 100px;
+  border: 1px dotted lightpink;
+  margin-bottom: 15px;
+}
+
+.finishedStage {
+  min-height: 100px;
+  border: 1px dotted lightseagreen;
+  margin-top: 15px;
+}

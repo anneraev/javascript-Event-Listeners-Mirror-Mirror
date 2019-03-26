@@ -1,0 +1,19 @@
+.blue {
+  color: blue;
+}
+
+.large {
+  font-size: 2em;
+}
+
+.bordered {
+  border: 1px solid green;
+}
+
+.rounded {
+  border-radius: 25px;
+}
+
+.yellowify {
+  background-color: yellow; 
+}
